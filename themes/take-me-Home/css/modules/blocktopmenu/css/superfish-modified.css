@@ -1,0 +1,298 @@
+
+
+/***  Alex Zaymund Navigation ***/
+
+.removeHref{
+	text-decoration:none !important;
+	color:#666666 !important;
+
+}
+.sfHoverForce a{color: #EEE724 !important;}
+#index .sfSubMenu {display: none;}
+.sfSubMenu {display: none; width: 100%; background-color: #67635A; color: #fff; position: absolute; text-align: center;}
+.sfSubMenu li {display: inline-block;}
+.sfSubMenu li a {
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s
+}
+/*** ESSENTIAL STYLES ***/
+.sf-contener {
+    /*background: #747378;*/
+    background: #fff;
+    clear: both;
+}
+#index .sf-contener {border: none !important;}
+.sf-right {
+  margin-right: 14px;
+  float: right;
+  width: 7px;
+}
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+ background: none ;
+		 	     margin: 0 auto;
+    float: none !important;
+    margin: 10px auto !important;
+    padding: 0;
+    width: 100%;
+}
+/*.sf-menu ul {
+background:none repeat scroll 0 0 #fff;
+    position: absolute;
+    top: -999em;
+		border:1px solid #C80405 ;
+
+		 padding: 20px 0;
+		 margin:10px 0 0;
+         left: -20px;
+		 
+}*/
+
+.sf-menu ul ul {
+		border:0;
+		 padding: 0;
+		 margin:0;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+    display: inline-block;
+    margin-right: 3px;
+    position: relative;
+    z-index: 103;
+	/*position:		relative;*//* Alex Zaymund menu */
+
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	top:			34px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			560px; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			200px; /* match ul width */
+	top:			0;
+}
+
+
+
+
+
+/*Alex Zaymund*/
+
+.sf-menu  a:hover{
+	color:#c80405;
+	
+}
+
+
+.sf-menu ul ul{
+	display:none !important;
+   border-right: 1px solid #EFEFEF;
+    left: 0 !important;
+    padding-left: 50px;
+    position: relative !important;
+    top: 0 !important;
+    visibility: visible !important;
+    width: 290px !important;
+}
+
+.sf-menu .last-child ul{
+	width:500px !important;
+}
+
+
+.sf-menu .last-child ul li {
+    width: 30% !important;
+}
+
+
+.sf-menu li li li {
+  display: inline-block;
+    float: none !important;
+    font-weight: normal;
+    width: 45% !important;
+}
+.sf-menu li li {
+    display: inline-block;
+    float: none;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    width: 175px !important;
+}
+
+.sf-menu li li:nth-child(2n){
+ /*border-left: 1px solid #DEDEDE;*/
+}
+
+.sf-menu li li a{
+ display: block;
+    margin: 4px 5px 0px 5px !important;
+    text-transform: none;
+}
+
+.sf-menu li li ul a{
+	text-transform:none;
+    font-weight: 300;
+	margin-bottom:0 !important;
+	padding-bottom:10px;
+	 font-size: 14px;
+}
+
+
+
+.sf-menu li a:hover {color: #eee724;}
+.sf-menu ul li a:hover {color: #eee724;}
+
+body#category.sale .sf-menu {border-bottom: 1px solid #CBCBCB; height: 40px;}
+body#cms.id_cms_category .sf-menu {border-bottom: 1px solid #CBCBCB; height: 40px;}
+body#index .sf-menu {border: none;}
+
+.sf-menu {
+    height: 40px;
+    left: 0px;
+    margin: 0 auto !important;
+    position: relative;
+    border-bottom: 1px solid #cbcbcb;
+}
+.sf-menu a {
+    color: #cbcbcb;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.333;
+    margin-right: 2px;
+    padding: 12px 13px 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s
+}
+
+
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	
+}
+
+.sf-contener ul {text-align: center;}
+.sf-contener ul li ul {text-align: left;}
+
+
+
+.sf-menu ul li:hover, .sf-menu ul li.sfHover,
+.sf-menu ul li a:focus, .sf-menu ul li a:hover, .sf-menu ul li a:active {
+	outline:		0;
+}
+
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+
+}
+
+
+.sf-menu ul a.sf-with-ul {
+
+}
+
+
+.sf-menu a.sf-with-ul  .sf-sub-indicator{
+	display:none;
+}
+
+.sf-sub-indicator {
+   color: #999999;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 9px !important;
+    width: 17px;
+}
+
+li.sf-search {
+  background: inherit;
+  float: right;
+  line-height: 25px;
+}
+li.sf-search input {
+	-moz-transition: all 1s; -webkit-transition: all 1s; -o-transition: all 1s;
+ background: url("../img/search.png") no-repeat scroll right center #EFEFEF;
+    border: medium none;
+ margin: 5px 30px 0 0;
+    padding: 5px 23px 5px 5px;
+	color:#999999;
+	font-size:14px;
+	width:225px;
+}
+
+li.sf-search input:focus{
+
+	width:250px;	
+}
+
+
+/* hack IE7 */
+.sf-menu a, .sf-menu a:visited {height:34px !IE;}
+.sf-menu li li {
+	background:#fff  !IE;
+}
+
+/*.fixed-nav {position: fixed; width: 100%; top:0; left:0; z-index: 999;}*/
+
+#menu {
+    position: relative;
+}
+
+#menu {
+    position: relative;
+}
+
+#menu > li {
+    position: static !important;
+   
+}
+
+#menu li > ul {
+    display: none;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: #67635A;
+}
+
+#menu li > ul li {
+    width: auto !important;
+	text-align: left;
+}
+
+#menu li > ul li a {
+	text-transform: uppercase;
+}
+

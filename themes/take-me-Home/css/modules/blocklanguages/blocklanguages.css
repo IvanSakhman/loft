@@ -1,0 +1,52 @@
+
+#languages_block_top li:hover ul{
+	display:block;
+}
+
+#languages_block_top li ul {
+   background: none repeat scroll 0 0 #191A19;
+    display: none;
+    left: 70px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 0;
+}
+
+.selected_language li:hover ul{
+	display:block;
+}
+
+
+#languages_block_top{
+    float: right;
+    position: relative;
+}
+
+
+#languages_block_top  li{
+	height: 26px;
+	
+}
+#languages_block_top  li li{
+  background: none repeat scroll 0 0 #191A19;
+    height: auto;
+    padding: 5px;
+	
+}
+
+#languages_block_top li li a{
+	padding:0 ;
+}
+
+.selected_language{
+	display:none !important;
+	}
+	
+
+.selected_language img{
+ opacity: 0.5;
+
+}
+
+
+

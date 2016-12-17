@@ -1,0 +1,46 @@
+.cur-nav li{
+    color: #7C7979;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 20px 1px;
+    text-transform: none;
+}
+
+
+.top-links #currencies_block_top{
+  float: left;
+    position: relative;
+}
+
+
+
+
+.currencies_ul {
+    background: none repeat scroll 0 0 #191A19;
+    color: #FFFFFF;
+    left: 48px !important;
+    position: absolute;
+	display:none;
+	z-index:20;
+}
+
+#setCurrency li:hover .currencies_ul{
+	display:block !important;
+}
+
+.currencies_ul li{
+    cursor: pointer;
+    float: none;
+    padding: 5px;
+    text-align: center;
+
+}
+.currencies_ul li a{
+	color:#fff;}
+	
+.currencies .selected a{
+		color:#5AAAFF;
+	}
+		

@@ -1,0 +1,33 @@
+#setCurrency {
+	display: block;
+	float: left;
+	margin: 0;
+}
+#viewed-products_block_left li .text_desc .s_title_block a, #viewed-products_block_left li .text_desc h5 a {
+	font-weight: normal !important;
+	color:inherit !important;
+}
+.home-carousel-wrapper, #productscategory_list {
+
+}
+.home-promo {
+ #image-block * {
+ border:none !important;
+}
+#image-block {
+	border: 1px solid #F0F0F0;
+}
+#image-block, #thumbs_li li img, .products_block li img, #cloud-zoom-big {
+	background-color:#fff;
+}
+a.tag_level3 {
+    font-size: 1.8em;
+    font-weight: 700 !important;
+}
+
+
+
+
+
+
+
